@@ -4,7 +4,8 @@
   "description": "Library for building web sites",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp --gulpfile=src/build/gulpfile.js",
+    "modify-dist": "node src/build/index"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,16 @@
   },
   "homepage": "https://github.com/BrsJsk/sfy#readme",
   "dependencies": {
-    "yargs": "^15.3.1"
+    "yargs": "^15.3.1",
+    "gulp-htmlmin": "^5.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-markdown": "^5.0.1",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1"
   }
 }
