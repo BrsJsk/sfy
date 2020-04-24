@@ -1,5 +1,5 @@
 # SFY
-<img src="./logo.svg" width="100px" />
+<img src="./assets/logo.svg" width="100px" />
 
 Library for building web sites
 

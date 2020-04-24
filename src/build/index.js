@@ -1,11 +1,11 @@
-const { src, dest, series } = require("gulp");
-const run = require("gulp-run");
+const { src, dest } = require("gulp");
 const clean = require("gulp-clean");
 const htmlmin = require("gulp-htmlmin");
 const sass = require("gulp-sass");
 const cleanCSS = require("gulp-clean-css");
 const markdown = require("gulp-markdown");
 const { modifyContentFiles } = require("./modify-content-files");
+const { modifyBlogFiles } = require("./modify-blog-files");
 
 sass.compiler = require("node-sass");
 
@@ -75,5 +75,6 @@ module.exports.runBuild = async (arg) => {
     await cleanCss();
     await minifyHtml();
     await mdToHtml();
-    modifyIndexFile();
+    await modifyIndexFile();
+    await modifyBlogFiles();
 };
