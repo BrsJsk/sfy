@@ -1,6 +1,6 @@
 {
   "name": "sfy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Library for building web sites",
   "main": "index.js",
   "scripts": {
