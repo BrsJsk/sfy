@@ -2,3 +2,4 @@
 
 * [Home](/)
 * [About](ABOUT.md)
+* [Building](BUILD.md)
