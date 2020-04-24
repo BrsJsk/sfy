@@ -29,4 +29,4 @@ npm install
 npm run build:dev
 ```
 
-Quickstart project preview: https://5ea2ad6fb58fb6ca21e28bfe--keen-swanson-66c35f.netlify.app/
+Quickstart project preview: https://keen-swanson-66c35f.netlify.app/
